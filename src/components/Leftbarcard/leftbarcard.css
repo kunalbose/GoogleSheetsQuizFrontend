@@ -1,0 +1,25 @@
+.leftbarcard{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.leftbarcardWrapper{
+    width: inherit;
+    border: 1px solid lightgray;
+    max-height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.leftbarcardQno{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.leftbarcardQ{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: gray;
+}

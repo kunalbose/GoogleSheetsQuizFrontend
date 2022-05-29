@@ -1,0 +1,87 @@
+.middlebar{
+    /* border: 1px solid black; */
+    /* background-color: blue; */
+    flex: 6;
+}
+
+.middlebarWrapper{
+    width: inherit;
+    /* border: 1px solid black; */
+    padding: 30px;
+}
+
+.middlebarCard{
+    height: 250px;
+    border: 1px solid lightgray;
+    padding: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.middlebarCardRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    /* border: 1px solid lightgray; */
+}
+
+.middlebarCardRightInner{
+    width: 80%;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.middlebarButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.middlebarNextButton{
+    background-color: #1877f2;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.middlebarResetButton{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    color: gray;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.middlebarOutcome{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.middlebarOutcomeType{
+    font-size: 20px;
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.middlebarOutcomeExplain{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Incorrect{
+    color: tomato;
+}
